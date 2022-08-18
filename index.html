@@ -8,25 +8,36 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="main_container">
+    <div class="overlay">
       <div class="navbar">
-        <div id="navbar1">
-          <a href="">
+        <div class="navbar_container">
+          <a href="/">
             <img id="logo" alt="Home Button" src="images/Cool_S_Logo.png" />
           </a>
-          <a id="name" href="">Fnu Shashwat</a>
-        </div>
-        <div id="navbar2">
-          <a href=""><div class="items">Home</div></a>
-          <a href=""><div class="items">About</div></a>
-          <a href=""><div class="items">Projects</div></a>
-          <a href=""><div class="items">Extra-Curriculars</div></a>
+          <div id="phone_view" class="navbar_toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <ul class="navbar_items">
+            <li class="items">
+              <a href="/" class="navbar_links">Home</a>
+            </li>
+            <li class="items">
+              <a href="#" class="navbar_links">About</a>
+            </li>
+            <li class="items">
+              <a href="#" class="navbar_links">Projects</a>
+            </li>
+            <li class="items">
+              <a href="#" class="navbar_links">Extra-curriculars</a>
+            </li>
+          </ul>
         </div>
       </div>
-
       <div class="popup_container">
         <div class="button">
-          <button class="openandclose_btn">&#62;</button>
+          <button id="openandclose_btn">&#62;</button>
           <!--<button class="close_btn"-->
         </div>
         <div class="popup">
@@ -47,7 +58,6 @@
         </div>
       </div>
     </div>
-
     <script src="main.js"></script>
     <footer></footer>
   </body>
